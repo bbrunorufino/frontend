@@ -1,0 +1,172 @@
+/* HERE STARTS THE MAGIC */
+.navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+}
+
+.icon-tst {
+    width: 23px;
+    height: 20px;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.holder {
+    background-image: url(imgs/section1-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.holder h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #666666;
+}
+
+.holder h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #666666;
+}
+
+.img-title {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 40%;
+    top: 35%;
+    letter-spacing: 3px;
+    white-space: pre-line;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.slider {
+    height: 400px;
+    background-color: #918FB3;
+}
+
+.slider h1 {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.absolute {
+    position: absolute;
+    top: 30px;
+}
+
+.card {
+    background-color: #918FB3 !important;
+    border: 1px solid white;
+}
+
+.card-body {
+    border: 1px solid white
+}
+
+.last {
+    min-height: 139px;
+}
+
+.h1000 {
+    height: 400px;
+}
+
+/* text */
+.purple {
+    color: #9D65A4 !important;
+}
+
+.bg-purple {
+    background-color: #9D65A4 !important;
+    color: #fff !important;
+    width: 150px;
+}
+
+.grey-purple {
+    color: #918FB3 !important;
+}
+
+
+section .slider {
+    height: 350px;
+}
+
+section.slider h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.numeral {
+    border: 1px solid #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 23px;
+    width: 29px;
+    text-align: center;
+    color: #fff;
+}
+
+.gallery {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.pics {
+    background-color: #E9F1F2;
+    height: 130px;
+    WIDTH: 200PX;
+    border: 1px solid #B7B7B7;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.pics p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #666666;
+}
+
+.teste h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.teste p {
+    font-family: 'Lato', sans-serif;
+}
+
+.form-group,
+section.teste input {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+footer {
+    height: 350px;
+    background-color: #685C82;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer p {
+    white-space: pre-line;
+}
